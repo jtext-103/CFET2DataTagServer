@@ -28,17 +28,20 @@ namespace Jtext103.CFET2.CFET2App
             MyHub.TryAddCommunicationModule(nancyCM);
 
             //拷贝视图文件夹
-            var myViewsCopyer = new ViewCopyer();
-            myViewsCopyer.StartCopy();
-            var myContentCopyer = new ViewCopyer(null, "Content");
-            myContentCopyer.StartCopy();
+            //var myViewsCopyer = new ViewCopyer();
+            //myViewsCopyer.StartCopy();
+            //var myContentCopyer = new ViewCopyer(null, "Content");
+            //myContentCopyer.StartCopy();
 
-            var dataServer = new DataServerThing(@"BasePath.txt");
+            var dataServer = new DataServerThing(@"AllConfig.json");
             dataServer.dataFileFactoty = new HDF5DataFileFactory();
             MyHub.TryAddThing(dataServer, "/", "dataServer");
 
-            var tagManagerThing = new TagManagerThing();
-            MyHub.TryAddThing(tagManagerThing, @"/", "tag", @"AllTagConfig.json");
+            var tagManager = new TagManagerThing();
+            MyHub.TryAddThing(tagManager, "/", "tag", @"AllConfig.json");
+
+            var tagServer = new TagServerThing();
+            MyHub.TryAddThing(tagServer, "/", "tagServer");
         }
     }
 }

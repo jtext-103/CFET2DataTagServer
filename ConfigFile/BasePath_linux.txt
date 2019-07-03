@@ -1,3 +1,0 @@
-{
-	"BasePath":"/home/jtextece/"
-}
