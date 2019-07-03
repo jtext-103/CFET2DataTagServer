@@ -1,0 +1,10 @@
+{
+  "RegexURLtoViewPathAndModel": {
+    "/": {
+      "ViewPath": "index"
+    },
+    "/dataserver": {
+      "ViewPath": "Channel"
+    }
+  }
+}

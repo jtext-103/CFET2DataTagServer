@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="~/Content/ChannelJS/function.js"></script>
+<link rel="stylesheet" href="~/Content/ChannelCSS/custom.css" />
+
+<script>
+    var thingPath = "/dataserver";
+
+    //请求BasePath
+    $.ajax({
+        url: thingPath + '/basepath',
+        type: "get",
+        async: true,
+        success: function (data) {
+            var obj = JSON.parse(data);
+            for (var i = 0; i < 16; i++) {
+                document.getElementById("basePathId").innerHTML = obj.CFET2CORE_SAMPLE_VAL;
+            }
+            length = obj.CFET2CORE_SAMPLE_VAL;
+        }
+    });
+</script>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css" class="container"></style>
+</head>
+<body>
+    <div id="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    <font>
+                        Basic Path :&nbsp;
+                    </font>
+                    <font color="RoyalBlue" id="basePathId"></font>
+                    &nbsp;&nbsp;
+                    <font id="sampleId"></font>
+                    &nbsp;&nbsp;
+                    <font id="lengthId"></font>
+                </h2>
+            </div>
+            <div class="panel-body">
+                <svg id="svgId"></svg>
+            </div>
+            <div class="panel-body row">
+                <div class="row" style="margin-left: 0px">
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-addon">Channel Path</span>
+                            <input id="pathId" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="input-group">
+                            <span class="input-group-addon">Start Point</span>
+                            <input id="startId" type="text" class="form-control" value="0">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="input-group">
+                            <span class="input-group-addon">End Point</span>
+                            <input id="endId" type="text" class="form-control" value="0">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-primary btn-mid" onclick="load();">
+                            <b>&nbsp;Load&nbsp;</b>
+                            <span class="glyphicon glyphicon-save"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
