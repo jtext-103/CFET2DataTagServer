@@ -1,0 +1,9 @@
+{
+	"ShotNoPvName":"ST:SHOTSERVER:SHOTNO",
+	"ShotNoUpperLimit":1099999,
+	"ShotNoLowerLimit":1000000,
+	"ControlPvName":"",
+	"ControlPvValue":0,
+	"CFETPathToUploadShotNo":"/tag/UploadCurrentShotNo",
+	"UploadTimeIntervalInSecond":5
+}
