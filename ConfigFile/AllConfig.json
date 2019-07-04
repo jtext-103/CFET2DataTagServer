@@ -1,6 +1,5 @@
 {
 	"BasePath":"C:\\Users\\wyx\\Desktop\\Server\\",
 	"DatabaseHost":"mongodb://127.0.0.1:27017",
-	"DatabaseName":"jtextTag",
-	"CurrentShotNoPath":"23333333"
+	"DatabaseName":"jtextTag"
 }
