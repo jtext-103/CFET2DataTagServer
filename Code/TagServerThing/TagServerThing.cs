@@ -23,8 +23,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -43,8 +42,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -63,8 +61,7 @@ namespace TagServer
         {          
             if(shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -85,8 +82,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -107,8 +103,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -128,8 +123,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -149,8 +143,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -170,8 +163,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -191,8 +183,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -209,8 +200,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -227,8 +217,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -245,8 +234,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();
@@ -263,8 +251,7 @@ namespace TagServer
         {
             if (shot == 0)
             {
-                throw new NotImplementedException();
-                //shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
+                shot = (int)(MyHub.TryGetResourceSampleWithUri(tagCurrentShot).ObjectVal);
             }
 
             string realPath = MyHub.TryGetResourceSampleWithUri(tagRealPath + tag + "/" + shot.ToString()).ObjectVal.ToString();

@@ -164,6 +164,10 @@
       <Project>{4b40cae3-ee69-439a-8f0d-8744a9bac101}</Project>
       <Name>DataServerThing</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShotNoWatcher\ShotNoWatcherThing.csproj">
+      <Project>{b0613b0a-4f27-44ec-a82d-e85c1741dbd8}</Project>
+      <Name>ShotNoWatcherThing</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TagManagerThing\TagManagerThing.csproj">
       <Project>{e08dd877-bb4a-41d3-bea8-dab347b5814a}</Project>
       <Name>TagManagerThing</Name>

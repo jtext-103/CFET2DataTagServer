@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ViewCopy;
+using JTextDAQDataFileOperator.HDF5;
 using DataServer;
 using TagManager;
 using TagServer;
-using JTextDAQDataFileOperator.HDF5;
+using ShotNoWatcher;
 
 namespace Jtext103.CFET2.CFET2App
 {
@@ -42,6 +43,9 @@ namespace Jtext103.CFET2.CFET2App
 
             var tagServer = new TagServerThing();
             MyHub.TryAddThing(tagServer, "/", "tagServer");
+
+            var shotWatcher = new ShotNoWatcherThing();
+            MyHub.TryAddThing(shotWatcher, "/", "shotWatcher", @"AShotWatcherConfig.json");
         }
     }
 }
