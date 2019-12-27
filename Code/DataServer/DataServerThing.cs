@@ -145,7 +145,7 @@ namespace DataServer
             }
             if (count == 0)
             {
-                count = (ulong)Length(dataFilePath);
+                count = (ulong)((endTime - startTime) * SampleRate(dataFilePath));
             }
             int nChannel;
             return GetDataReader(dataFilePath, out nChannel).LoadDataFromFileByTimeFuzzy(nChannel, startTime, endTime, count);
@@ -165,7 +165,7 @@ namespace DataServer
             }
             if (count == 0)
             {
-                count = (ulong)Length(dataFilePath);
+                count = (ulong)((endTime - startTime) * SampleRate(dataFilePath));
             }
             int nChannel;
             return GetDataReader(dataFilePath, out nChannel).LoadDataFromFileByTimeFuzzy_TimeAxis(nChannel, startTime, endTime, count);
