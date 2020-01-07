@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NancyModule</name>
+    </assembly>
+    <members>
+        <member name="T:Jtext103.CFET2.NancyHttpCommunicationModule.CustomBootstrapper">
+            <summary>
+            add static file for views
+            </summary>
+        </member>
+        <member name="T:Jtext103.CFET2.NancyHttpCommunicationModule.NancyCommunicationModule">
+            <summary>
+            使用 Nancy 进行 HTTP 通信，处理网页请求
+            </summary>
+        </member>
+    </members>
+</doc>
